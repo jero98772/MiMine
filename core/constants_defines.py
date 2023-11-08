@@ -3,6 +3,8 @@ import numpy as np
 import glm
 import math
 
+
+
 # OpenGL settings
 MAJOR_VER, MINOR_VER = 3, 3
 DEPTH_SIZE = 24
@@ -12,20 +14,20 @@ NUM_SAMPLES = 1  # antialiasing
 WIN_RES = glm.vec2(1600, 900)
 
 # world generation
-SEED = 16
+SEED = np.random.randint(132)
 
 # ray casting
 MAX_RAY_DIST = 6
 
 # chunk
-CHUNK_SIZE = 48
+CHUNK_SIZE = 64
 H_CHUNK_SIZE = CHUNK_SIZE // 2
 CHUNK_AREA = CHUNK_SIZE * CHUNK_SIZE
 CHUNK_VOL = CHUNK_AREA * CHUNK_SIZE
 CHUNK_SPHERE_RADIUS = H_CHUNK_SIZE * math.sqrt(3)
 
 # world
-WORLD_W, WORLD_H = 20, 2
+WORLD_W, WORLD_H = 1, 1
 WORLD_D = WORLD_W
 WORLD_AREA = WORLD_W * WORLD_D
 WORLD_VOL = WORLD_AREA * WORLD_H

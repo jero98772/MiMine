@@ -1,5 +1,5 @@
-from settings import *
-from meshes.base_mesh import BaseMesh
+from core.constants_defines import *
+from core.meshes.base_mesh import BaseMesh
 
 
 class QuadMesh(BaseMesh):

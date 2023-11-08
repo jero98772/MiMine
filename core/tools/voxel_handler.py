@@ -1,5 +1,5 @@
-from settings import *
-from meshes.chunk_mesh_builder import get_chunk_index
+from core.constants_defines import *
+from core.meshes.chunk_mesh_builder import get_chunk_index
 
 
 class VoxelHandler:

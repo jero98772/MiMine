@@ -1,4 +1,4 @@
-from settings import *
+from core.constants_defines import *
 from numba import uint8
 
 

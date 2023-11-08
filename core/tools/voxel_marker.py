@@ -1,5 +1,5 @@
-from settings import *
-from meshes.cube_mesh import CubeMesh
+from core.constants_defines import *
+from core.meshes.cube_mesh import CubeMesh
 
 
 class VoxelMarker:

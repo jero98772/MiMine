@@ -1,5 +1,5 @@
-from meshes.base_mesh import BaseMesh
-from meshes.chunk_mesh_builder import build_chunk_mesh
+from core.meshes.base_mesh import BaseMesh
+from core.meshes.chunk_mesh_builder import build_chunk_mesh
 
 
 class ChunkMesh(BaseMesh):

@@ -1,11 +1,11 @@
-from settings import *
 import moderngl as mgl
 import pygame as pg
 import sys
-from shader_program import ShaderProgram
-from scene import Scene
-from player import Player
-from textures import Textures
+from core.tools.shader_program import ShaderProgram
+from core.tools.scene import Scene
+from core.tools.player import Player
+from core.tools.textures import Textures
+from core.constants_defines import *
 
 
 class VoxelEngine:
@@ -66,8 +66,3 @@ class VoxelEngine:
             self.render()
         pg.quit()
         sys.exit()
-
-
-if __name__ == '__main__':
-    app = VoxelEngine()
-    app.run()

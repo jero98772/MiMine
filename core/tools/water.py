@@ -1,5 +1,5 @@
-from meshes.quad_mesh import QuadMesh
-from settings import *
+from core.meshes.quad_mesh import QuadMesh
+from core.constants_defines import *
 
 
 class Water:
